@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int variants;
+	int number;
+	char name[50];
+	char surname[50];
+	cout << "Write number of students" << endl;
+	cin >> variants;
+	cout << "Write count of variants" << endl;
+	cin >> number;
+	cout << "Write name" << endl;
+	cin >> name;
+	cout << "Write surname" << endl;
+	cin >> surname;
+
+	cout << "1: " << number % variants << endl;
+	cout << "2: " << name[0] % variants << endl;
+	cout << "3: " << surname[0] % variants << endl;
+	return 0;
+}
